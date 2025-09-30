@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proficiency Bars</title>
+  <style>
+    body {
+      font-family:alexgen;
+      background: #f4eded;
+      padding: 40px;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #09435d;
+    }
+    .skill {
+      margin-bottom: 25px;
+    }
+    .skill-name {
+      margin-bottom: 6px;
+      font-weight: 500;
+      color: #e41515;
+    }
+    .progress {
+      background: #fafbf8;
+      border-radius: 10px;
+      height: 14px;
+      width: 500px;
+      overflow: hidden;
+    }
+    .progress-bar {
+      height: 100%;
+      border-radius: 10px;
+      background: linear-gradient(90deg, #1e90ff, #00bfff);
+    }
+    .frontend { width: 50%; }
+    .backend { width: 40%; }
+    .programming { width: 65%; }
+  </style>
+</head>
+<body>
+
+  <h2>Proficiency</h2>
+
+  <div class="skill">
+    <div class="skill-name">Frontend/Design</div>
+    <div class="progress">
+      <div class="progress-bar frontend"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <div class="skill-name">Backend</div>
+    <div class="progress">
+      <div class="progress-bar backend"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <div class="skill-name">Programming</div>
+    <div class="progress">
+      <div class="progress-bar programming"></div>
+    </div>
+  </div>
+
+</body>
+</html>
